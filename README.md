@@ -6,13 +6,21 @@ File Name: Master_File_FINAL.ipynb
 Open with Google Colab. 
 
 Dependencies: 
+
 --Numpy
+
 --Pandas
+
 --Pymc3
+
 --Arviz
+
 --Matplotlib.pyplot
+
 --Seaborn
+
 --Pickle
+
 --Sklearn.model_selection
 
 To access data & trace files in pickle format: 
