@@ -6,18 +6,19 @@ File Name: Master_File_FINAL.ipynb
 Open with Google Colab. 
 
 Dependencies: 
-Numpy
-Pandas
-Pymc3
-Arviz
-Matplotlib.pyplot
-Seaborn
-Pickle
-Sklearn.model_selection
+--Numpy
+--Pandas
+--Pymc3
+--Arviz
+--Matplotlib.pyplot
+--Seaborn
+--Pickle
+--Sklearn.model_selection
 
 To access data & trace files in pickle format: 
 
 Go to this link while logged in to your UVA email:
+
 https://drive.google.com/drive/folders/1xvfoBilTrcl6mZJQHGT1Ft5EFn__14sL?usp=sharing 
 
 Once there, click on the folder name and click Add shortcut to Drive. 
@@ -25,7 +26,9 @@ Once there, click on the folder name and click Add shortcut to Drive.
 Once you have done that, you should be able to access the files to run this code by running these lines of code (which are in the file): 
 
 from google.colab import drive
+
 drive.mount('/content/gdrive')
+
 %cd /content/gdrive/MyDrive/6040 Final Project/deliverables/code/RawData
 
 Alternatively, all files may be downloaded from https://github.com/hschmuckler/BayesFinalProject. 
